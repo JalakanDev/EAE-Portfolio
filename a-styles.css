@@ -1,0 +1,14 @@
+header {
+    margin-top: 50px;
+}
+
+body {
+    background-color: beige;
+}
+
+.title {
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Bruh</title>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="icon" type="image/x-icon" href="calc.ico">
+</head>
+<body onload="resett()">
+    <h1>Calculator Bruh</h1>
+    <header class="main-c">
+        <div class="calc"> <!-- Main Calcutaling here -->
+            <img src="bart.gif" alt="pic here" class="imgg"><!-- Images to change here -->
+            <img src="cell.jpg" alt="other pic here" class="img2"> <!-- Change image here too -->
+            <form id="form">
+                <label for="Num1">Number 1:</label>
+                <input type="text" id="Num1" name="Num1"> <br>
+                <label for="Num2">Number 2:</label>
+                <input type="text" id="Num2" name="Num2">
+            </form>
+            <button onclick="dur()">Calculate</button>
+            <label for="Ops">Choose your Operation</label>
+            <select name="Ops" id="ops"> <!-- Choose opertion -->
+                <option value="+">Addition</option>
+                <option value="-">Subtraction</option>
+                <option value="×">Multiplication</option>
+                <option value="÷">Division</option>
+            </select>
+        </div>
+    </header>
+    <hr>
+    <div style="text-align: center; overflow: auto;" class="res">
+        <h2>Answer: </h2>
+        <h2 id="text"></h2> <!-- Result goes here -->
+    </div>
+    <section>
+        <h3>How to use calculaotr: </h3>
+        <p>Enter numbers you wanna add to the input boxes</p>
+        <p>Choose your Operation</p>
+        <p>The press calculate to see the magic happen</p>
+    </section>
+</body>
+</html>

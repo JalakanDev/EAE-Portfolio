@@ -1,0 +1,76 @@
+body {
+    background-image: url('Images/unity\ bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    color: #e5e7eb;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.intro-text p{
+
+    font-size: 25px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+.intro {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    width: 100%;
+    padding: 80px 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}

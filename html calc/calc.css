@@ -1,0 +1,61 @@
+.main-c > .calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calc > #form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+body {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.calc button {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding: 10px;
+    font-size: 150%
+}
+
+.imgg {
+    position: absolute;
+    left: 2px;
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+}
+
+#text {
+    display: none;
+    border: 2px solid black;
+    padding: 10px 50px;
+    background-color: powderblue;   
+}
+
+.img2 {
+    position: absolute;
+    right: 2px;
+    height: 150px;
+    width: 260px;
+    margin-left: 10px;
+}
+
+.calc input {
+    border: 2px inset black;
+    border-radius: 50px;
+    padding: 10px;
+    width: 210px;
+}
+
+.res h2{
+    margin: 0;
+}
