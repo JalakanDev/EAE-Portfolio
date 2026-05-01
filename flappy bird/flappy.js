@@ -63,6 +63,9 @@ var myGameArea = {
     this.interval = setInterval(updateGameArea, 20);
     window.addEventListener('keydown', function (e) {
       myGameArea.keys[e.keyCode] = true;
+      if (e.keyCode === key.Space) {
+        e.preventDefault();
+      }
     })
     window.addEventListener('keyup', function (e) {
       myGameArea.keys[e.keyCode] = false;
