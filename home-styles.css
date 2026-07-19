@@ -74,3 +74,8 @@ h1, h2, h3 {
     display: inline-block;
     margin-bottom: 10px;
 }
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
