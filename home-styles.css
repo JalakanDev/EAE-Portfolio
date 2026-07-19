@@ -79,3 +79,11 @@ h1, h2, h3 {
     text-decoration: none;
     color: inherit;
 }
+
+.card-link,
+.card-link:visited,
+.card-link:hover,
+.card-link:active {
+    text-decoration: none;
+    color: inherit;
+}
